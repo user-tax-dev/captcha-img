@@ -25,12 +25,12 @@ export default () => {
 		block_x = randomInt(width - size),
 		d_n = randomInt(D.length),
 		path = [
-			`<svg viewBox="-200 -200 1224 1224" x="${block_x}" y="${block_y}" width="${size}" height="${size}"><path d="${
+			`<svg viewBox="-1000 -1000 2024 2024" x="${block_x}" y="${block_y}" width="${size}" height="${size}"><path d="${
 				D[d_n]
 			}" fill="url(#bg3)" transform="skewX(${randomInt(
 				20,
 				-10,
-			)}) skewY(${randomInt(20, -10)})" fill-opacity=".5"></path></svg>`,
+			)}) skewY(${randomInt(20, -10)})" fill-opacity=".8"></path></svg>`,
 		],
 		randomColor = (base) => {
 			var i = 0,
