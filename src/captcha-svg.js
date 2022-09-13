@@ -7,8 +7,8 @@ const random = (base, offset = 0) => Math.random() * base + offset,
 
 export default () => {
 	const layerCount = randomInt(6, 6),
-		height = 800,
-		width = 800,
+		height = 900,
+		width = 900,
 		segmentCount = random(10, 5),
 		wave = new Wave({
 			width,
