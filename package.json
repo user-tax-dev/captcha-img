@@ -1,0 +1,17 @@
+{
+  "name": "@user.tax/svg-wave",
+  "type": "module",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "@iuser/extract": "^0.0.1",
+    "@iuser/node-loader": "^0.0.21",
+    "@iuser/read": "^0.0.5",
+    "@iuser/write": "^0.0.7",
+    "@rmw/thisdir": "^0.0.2",
+    "coffee_plus": "^0.0.39",
+    "svgo": "^2.8.0"
+  },
+  "dependencies": {
+    "@user.tax/webp": "^0.0.3"
+  }
+}
