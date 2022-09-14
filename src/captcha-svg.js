@@ -89,7 +89,7 @@ export default () => {
 	);
 
 	const [psize, pattern] = PATTERN[randomInt(PATTERN.length)],
-		color = [randomColor(50), randomColor(225)];
+		color = [randomColor(70), randomColor(225)];
 	if (Math.random() < .5) {
 		color.reverse();
 	}
