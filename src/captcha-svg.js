@@ -66,7 +66,8 @@ export default (width, height) => {
 		);
 		opacity -= opstep;
 	}
-	const size = randomInt(20, 80),
+
+	const size = randomInt(Math.round(height / 20), Math.round(height / 20)),
 		box_h = randomInt(height - size),
 		box_w = randomInt(width - size),
 		block_y = box_h,
