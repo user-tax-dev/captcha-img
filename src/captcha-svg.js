@@ -111,7 +111,7 @@ export default (width, height) => {
 			<stop offset="0%" stop-color="#${color[0]}"></stop>
 			<stop offset="100%" stop-color="#${color[1]}"></stop>
 		</linearGradient>
-    <pattern id="ico" patternTransform="scale(${randomInt(15, 1) / 100})" width="1024px" height="1024px" patternUnits="userSpaceOnUse">
+    <pattern id="ico" patternTransform="scale(${randomInt(15, 5) / 100})" width="1024px" height="1024px" patternUnits="userSpaceOnUse">
     <path fill="${color[0]}" d="M322.56 400.32c25.6-70.4-18.88-190.4-37.44-234.56a17.28 17.28 0 0 0-24-8.64c-42.56 22.08-153.6 85.44-179.2 155.84a128 128 0 1 0 240.64 87.68z m196.16 32C448 469.44 265.6 573.44 224 689.28A210.56 210.56 0 1 0 619.52 832c42.24-115.84-32-313.28-61.44-385.92a28.48 28.48 0 0 0-39.36-12.8zM893.76 64a21.44 21.44 0 0 0-29.76-9.6c-52.8 27.52-192 105.92-224 192a160 160 0 1 0 298.88 108.8c32.96-86.08-22.4-235.2-45.12-291.2z"></path>
 	  </pattern>
     <pattern id="p" patternTransform="scale(${
