@@ -77,7 +77,7 @@ export default () => {
 		0,
 		`<svg viewBox="0 0 1024 1024" x="${block_x}" y="${block_y}" width="${size}" height="${size}"><path d="${
 			D[d_n]
-		}" fill="url(#ico)" fill-opacity=".6" transform="skewX(${randomInt(
+		}" fill="url(#ico)" fill-opacity=".65" transform="skewX(${randomInt(
 			20,
 			-10,
 		)}) skewY(${randomInt(20, -10)})"></path></svg>`,
