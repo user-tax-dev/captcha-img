@@ -123,9 +123,9 @@ export default (width, height) => {
   <rect fill-opacity="${randomInt(30) / 100}" height="100%" width="100%" fill="url(#p)"></rect>
   ${path.join("\n")}
 </svg>`,
+		d_n,
 		block_x,
 		block_y,
 		size,
-		d_n,
 	];
 };
