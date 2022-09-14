@@ -6,12 +6,12 @@ specifiers:
   '@iuser/read': ^0.0.5
   '@iuser/write': ^0.0.7
   '@rmw/thisdir': ^0.0.2
-  '@user.tax/webp': ^0.0.3
+  '@user.tax/webp': ^0.0.4
   coffee_plus: ^0.0.39
   svgo: ^2.8.0
 
 dependencies:
-  '@user.tax/webp': 0.0.3
+  '@user.tax/webp': 0.0.4
 
 devDependencies:
   '@iuser/extract': 0.0.1
@@ -63,8 +63,8 @@ packages:
     engines: {node: '>=10.13.0'}
     dev: true
 
-  /@user.tax/webp-darwin-x64/0.0.3:
-    resolution: {integrity: sha512-sh5lNAxShNXe9FGxudk6ZfM51Atp/8dFB6MoNQTLk3lu4kfMdm6BtBnjotInTNfBjGuCi2WqunPMdFUw1GbyGQ==}
+  /@user.tax/webp-darwin-x64/0.0.4:
+    resolution: {integrity: sha512-idARhLldZ5lXPEQMfYQuxnsTLxFh9fS/2CkL0YsakurvR8eP6E74FVyHS/FBrIIbtFJC0CoKSptwuAH2q9IxYA==}
     engines: {node: '>= 10'}
     cpu: [x64]
     os: [darwin]
@@ -72,8 +72,8 @@ packages:
     dev: false
     optional: true
 
-  /@user.tax/webp-linux-x64-gnu/0.0.3:
-    resolution: {integrity: sha512-7mulDCoyCN49qkoXPvLeyjJNVhPB1c+fzynsidbnCQtA012ZXMAczqmp/x4rQSy4xuG94N8oudyFv17viKL4Qg==}
+  /@user.tax/webp-linux-x64-gnu/0.0.4:
+    resolution: {integrity: sha512-mzEjqy61DaK23klhq0GzFuSBuP/IiXDcH06/MmZGMHWRaHMeYFnSVeZzeP8N0PrrRDoVDlkjOuIr/ZRMJY9/1Q==}
     engines: {node: '>= 10'}
     cpu: [x64]
     os: [linux]
@@ -81,8 +81,8 @@ packages:
     dev: false
     optional: true
 
-  /@user.tax/webp-win32-x64-msvc/0.0.3:
-    resolution: {integrity: sha512-kkohaesbACs66JFohbiCCzMUaJPVIc37i/LEijML/KYzLy/Xz1zWFmT6+Vqcl108lKPrvC7dUBFe0NhIFsxTpA==}
+  /@user.tax/webp-win32-x64-msvc/0.0.4:
+    resolution: {integrity: sha512-8Jk/82fnEhnVySYp7KwpgzWZ+7L18k14tBYNhnL9Sl0xSqpAvwpUdxE8A8NS46CanzhVVgzjbt7fnHDATfk7jw==}
     engines: {node: '>= 10'}
     cpu: [x64]
     os: [win32]
@@ -90,13 +90,13 @@ packages:
     dev: false
     optional: true
 
-  /@user.tax/webp/0.0.3:
-    resolution: {integrity: sha512-9k0eYzjLNGZ2hf2EXDajHIj23LWGIlvDecBImgwjV1AiB7s+MZPc2t91kYFn3lIBwbIDqpK8AsNZu/nJOhY4aQ==}
+  /@user.tax/webp/0.0.4:
+    resolution: {integrity: sha512-rbrVmxvMgOqegDYvlUki9dC+Z1hUWkWRM2EKzj3LhHoQOZUN0vUaqJglF6I5kDQ/Tobm30UXWuNvTobPSpCJFg==}
     engines: {node: '>= 18'}
     optionalDependencies:
-      '@user.tax/webp-darwin-x64': 0.0.3
-      '@user.tax/webp-linux-x64-gnu': 0.0.3
-      '@user.tax/webp-win32-x64-msvc': 0.0.3
+      '@user.tax/webp-darwin-x64': 0.0.4
+      '@user.tax/webp-linux-x64-gnu': 0.0.4
+      '@user.tax/webp-win32-x64-msvc': 0.0.4
     dev: false
 
   /ansi-regex/5.0.1:
