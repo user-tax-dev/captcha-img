@@ -1,5 +1,5 @@
 {
-  "name": "@user.tax/captcha",
+  "name": "@user.tax/captcha-img",
   "type": "module",
   "license": "Apache-2.0",
   "devDependencies": {
