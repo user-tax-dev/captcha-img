@@ -7,8 +7,8 @@ cd $_DIR
 set -ex
 
 git add -A
-git pull
 git commit -m.
+git pull
 
 version=$(cat package.json|jq -r '.version')
 
