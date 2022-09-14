@@ -6,6 +6,6 @@ const ENCODER = new TextEncoder(),
 
 export default async () => {
 	const li = captcha();
-	li[0] = await svgWebp(encode(li[0]), 30);
+	li[0] = await svgWebp(encode(li[0]), 10);
 	return li;
 };
