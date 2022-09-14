@@ -5,10 +5,10 @@ import PATTERN from "./pattern.js";
 const random = (base, offset = 0) => Math.random() * base + offset,
 	randomInt = (base, offset = 0) => parseInt(random(base, offset));
 
-export default () => {
+export default (width, height) => {
+	height = height || width;
+
 	const layerCount = randomInt(6, 6),
-		height = 900,
-		width = 900,
 		segmentCount = random(10, 5),
 		wave = new Wave({
 			width,

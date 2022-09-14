@@ -8,8 +8,8 @@
 ROOT = thisdir(import.meta)
 
 n = 0
-while ++n < 2
-  [img, x, y, size, id] = await CaptchaImg()
+while ++n < 50
+  [img, x, y, size, id] = await CaptchaImg(750)
   console.log(n, x, y, size, id)
   console.log img
   writeFileSync(
