@@ -1,5 +1,5 @@
 {
-  "name": "@user.tax/svg-wave",
+  "name": "@user.tax/captcha",
   "type": "module",
   "license": "Apache-2.0",
   "devDependencies": {
@@ -11,6 +11,13 @@
     "coffee_plus": "^0.0.39",
     "svgo": "^2.8.0"
   },
+  "exports": {
+    ".": "./src/index.js",
+    "./*": "./src/*"
+  },
+  "files": [
+    "src/*"
+  ],
   "dependencies": {
     "@user.tax/webp": "^0.0.3"
   }

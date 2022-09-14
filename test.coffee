@@ -1,7 +1,7 @@
 #!/usr/bin/env coffee
 
 > @rmw/thisdir
-  ./src/captcha.js
+  @user.tax/captcha
   path > join
   fs > writeFileSync
 
