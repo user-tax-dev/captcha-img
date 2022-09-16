@@ -1,7 +1,7 @@
 {
   "name": "@user.tax/captcha-img",
   "type": "module",
-  "license": "Apache-2.0",
+  "license": "AGPL-3.0",
   "devDependencies": {
     "@iuser/extract": "^0.0.1",
     "@iuser/node-loader": "^0.0.21",
