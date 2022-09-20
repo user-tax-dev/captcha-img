@@ -1,7 +1,7 @@
 {
   "name": "@user.tax/captcha-img",
   "type": "module",
-  "license": "BUSL-1.1",
+  "license": "(BUSL-1.1 OR SSPL-1.0)",
   "devDependencies": {
     "@iuser/extract": "^0.0.1",
     "@iuser/node-loader": "^0.0.21",
