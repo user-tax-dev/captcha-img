@@ -6,12 +6,12 @@ specifiers:
   '@iuser/read': ^0.0.5
   '@iuser/write': ^0.0.7
   '@rmw/thisdir': ^0.0.2
-  '@user.tax/webp': ^0.0.12
+  '@user.tax/webp': ^0.0.14
   coffee_plus: ^0.0.39
   svgo: ^2.8.0
 
 dependencies:
-  '@user.tax/webp': 0.0.12
+  '@user.tax/webp': 0.0.14
 
 devDependencies:
   '@iuser/extract': 0.0.1
@@ -63,8 +63,8 @@ packages:
     engines: {node: '>=10.13.0'}
     dev: true
 
-  /@user.tax/webp-darwin-arm64/0.0.12:
-    resolution: {integrity: sha512-LDSYTKNh/M2HT4fYy/pJ1aCwy0NZQCf4Qtzb4zzR9Sbc6ULa6KgDBfoHBKUNwFhvzEUA393g9HljO4oi1p10iA==}
+  /@user.tax/webp-darwin-arm64/0.0.14:
+    resolution: {integrity: sha512-10elVhfhnywqivgGSlUA2Dpfxa1KgfAllci3f9RGHwSExdSFNnzqfHjYZQ6JCfXk2XrePyMk8MbaBx1HEKGBww==}
     engines: {node: '>= 10'}
     cpu: [arm64]
     os: [darwin]
@@ -72,8 +72,8 @@ packages:
     dev: false
     optional: true
 
-  /@user.tax/webp-darwin-x64/0.0.12:
-    resolution: {integrity: sha512-Z+cVtByjXxWyCN+smcPhSFK/7OIWJ+xrV2r8cAB9yphHrqyaSqi+wFPfis/CH/Nv7aljvzkRep7ThalF3JMQiA==}
+  /@user.tax/webp-darwin-x64/0.0.14:
+    resolution: {integrity: sha512-BIj2wN8c/OMOxJxaqXNPG2PAUhWXpxnZ4y5e01GoFPD0WKcoe4t+IhM3Vi1V/TpfWdGgKbsyKPuHiMEiwJBcWQ==}
     engines: {node: '>= 10'}
     cpu: [x64]
     os: [darwin]
@@ -81,8 +81,8 @@ packages:
     dev: false
     optional: true
 
-  /@user.tax/webp-linux-x64-gnu/0.0.12:
-    resolution: {integrity: sha512-CD3/YJA9NqB9Y61zSHe2jkzY6VfLFcBWVGPKu34zEwnX4xvvJziSz1b81m735owXMtmIb6LiKRVunDAYmbzLQA==}
+  /@user.tax/webp-linux-x64-gnu/0.0.14:
+    resolution: {integrity: sha512-NIlSyXYpruvjRCUO/yucjvrXbRwW9qOUe1e34+tBsxPiuitM9bXzglpj2gMDrs9H73cDAe13RIfR3sWmJLvg9w==}
     engines: {node: '>= 10'}
     cpu: [x64]
     os: [linux]
@@ -90,8 +90,8 @@ packages:
     dev: false
     optional: true
 
-  /@user.tax/webp-linux-x64-musl/0.0.12:
-    resolution: {integrity: sha512-5c5Q2HjSYrJdHp4W51SdCk16XHJl73fJMDbubXxHMP7HBeO48JNNjDUr8tj3CPv+CJN8s16p18bRnFDhCG6+oA==}
+  /@user.tax/webp-linux-x64-musl/0.0.14:
+    resolution: {integrity: sha512-JVL+p3P3+sADGhGJaluP9BCBS0VecpCMTiMHR43lssu7ot4OFAaJurOHMTbWfRzuteQvI1K0rR8VUKh4ZHFxmQ==}
     engines: {node: '>= 18'}
     cpu: [x64]
     os: [linux]
@@ -99,8 +99,8 @@ packages:
     dev: false
     optional: true
 
-  /@user.tax/webp-win32-x64-msvc/0.0.12:
-    resolution: {integrity: sha512-GEo1CSGMQBRdY299cimrjiDCGs54Xi7aw1OgzfHwucJKNREV40WkpY8zfONqzUDZ7X+Tzx4j4ea+mJgQLvkGgA==}
+  /@user.tax/webp-win32-x64-msvc/0.0.14:
+    resolution: {integrity: sha512-1Eui7tQOgtY7y9djh+UGRT1bqQDtMMgCTUN0zbjbVtTnYZSqWrqp662i489Vi1GmVXFx3lZGHrqQuukxUStW7A==}
     engines: {node: '>= 10'}
     cpu: [x64]
     os: [win32]
@@ -108,15 +108,15 @@ packages:
     dev: false
     optional: true
 
-  /@user.tax/webp/0.0.12:
-    resolution: {integrity: sha512-gTYKnk08B1XR74zz5R06NOHoUiVTajwbpDtsfh0tTg25QJ1wYqPf6W+PWToSJMPdnzkl0hwQmCpjjHxcGAU2lg==}
+  /@user.tax/webp/0.0.14:
+    resolution: {integrity: sha512-+t6/zEqTmYfuoaQOjpI9b7TWBmfXr7iIMMzYgY4+FofQSTZOgiPE5qQW9eENJ3NC6M8kFUANT4wQDUrxSkLGnQ==}
     engines: {node: '>= 18'}
     optionalDependencies:
-      '@user.tax/webp-darwin-arm64': 0.0.12
-      '@user.tax/webp-darwin-x64': 0.0.12
-      '@user.tax/webp-linux-x64-gnu': 0.0.12
-      '@user.tax/webp-linux-x64-musl': 0.0.12
-      '@user.tax/webp-win32-x64-msvc': 0.0.12
+      '@user.tax/webp-darwin-arm64': 0.0.14
+      '@user.tax/webp-darwin-x64': 0.0.14
+      '@user.tax/webp-linux-x64-gnu': 0.0.14
+      '@user.tax/webp-linux-x64-musl': 0.0.14
+      '@user.tax/webp-win32-x64-msvc': 0.0.14
     dev: false
 
   /ansi-regex/5.0.1:
