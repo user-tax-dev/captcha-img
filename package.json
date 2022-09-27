@@ -19,7 +19,7 @@
     "src/*"
   ],
   "dependencies": {
-    "@user.tax/webp": "^0.0.15"
+    "@user.tax/webp": "^0.0.16"
   },
   "version": "0.0.14"
 }
