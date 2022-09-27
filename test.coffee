@@ -12,8 +12,8 @@ n = 0
 while ++n < 1e9
   [img, x, y, size, id] = await CaptchaImg(750,40)
   console.log(n, x, y, size, id)
-  await sleep 1
-  gc()
+  await sleep 0
+  #gc()
   #console.log img
   #writeFileSync(
   #  join ROOT,"demo/#{n}.webp"
