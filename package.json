@@ -1,0 +1,24 @@
+{
+  "name": "@user.tax/captcha-img",
+  "type": "module",
+  "license": "(SSPL-1.0 OR COMMERCIAL)",
+  "devDependencies": {
+    "@iuser/extract": "^0.0.1",
+    "@iuser/node-loader": "^0.0.46",
+    "@iuser/read": "^0.0.5",
+    "@iuser/write": "^0.0.7",
+    "@u7/uridir": "^0.0.1",
+    "await-sleep": "^0.0.1",
+    "coffee_plus": "^0.0.46",
+    "svgo": "^3.0.2"
+  },
+  "exports": {
+    ".": "./src/index.js",
+    "./*": "./src/*"
+  },
+  "files": [
+    "src/*"
+  ],
+  "dependencies": {},
+  "version": "0.0.19"
+}
