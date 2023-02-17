@@ -1,58 +1,26 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@iuser/extract': ^0.0.1
-  '@iuser/node-loader': ^0.0.46
-  '@iuser/read': ^0.0.5
-  '@iuser/write': ^0.0.7
-  '@u7/uridir': ^0.0.1
+  '@u7/extract': ^0.0.2
+  '@u7/node-loader': ^0.0.49
+  '@u7/read': ^0.0.6
+  '@u7/uridir': ^0.0.2
+  '@u7/write': ^0.0.8
   await-sleep: ^0.0.1
-  coffee_plus: ^0.0.46
+  coffee_plus: ^0.0.55
   svgo: ^3.0.2
 
 devDependencies:
-  '@iuser/extract': 0.0.1
-  '@iuser/node-loader': 0.0.46
-  '@iuser/read': 0.0.5
-  '@iuser/write': 0.0.7
-  '@u7/uridir': 0.0.1
+  '@u7/extract': 0.0.2
+  '@u7/node-loader': 0.0.49
+  '@u7/read': 0.0.6
+  '@u7/uridir': 0.0.2
+  '@u7/write': 0.0.8
   await-sleep: 0.0.1
-  coffee_plus: 0.0.46
+  coffee_plus: 0.0.55
   svgo: 3.0.2
 
 packages:
-
-  /@iuser/camel/0.0.20:
-    resolution: {integrity: sha512-cEYRxe+NaHY/z2F4JbMd98J/+Oj6IlzHDCM1bG6vQLozKeuOLT4Hq5g6M7TOtVNP+VURBkXfFMoZIW7Iunamcg==}
-    dev: true
-
-  /@iuser/extract/0.0.1:
-    resolution: {integrity: sha512-oXJd3B6TfnsR/zqvXfKPvA3Qyyil3QnGMGW/N+r8qDPO7wW9J+2/dJRcFGr0SB7t4mr1w6+ao8VsRe8ct86rWQ==}
-    dev: true
-
-  /@iuser/node-loader/0.0.46:
-    resolution: {integrity: sha512-NunLDSSEswDyapzxljkt67xRbHklNtZHjgEoed9k6WbeZZ4/T3HBJIvdURuDo7uIVRBW6Q8yKM5z8NPOHIuErQ==}
-    dependencies:
-      '@u6x/jsext': 0.0.27
-      coffee_plus: 0.0.43
-      coffeescript: 2.7.0
-    dev: true
-
-  /@iuser/read/0.0.5:
-    resolution: {integrity: sha512-FGEo2Ou2WPhSpuuu1h43eu0haz15qIA2hlBhzwxhbrmK7dznhXZ6JTqSwa9L0pa2rdtACk3+WHfiSKlXeguGFw==}
-    dev: true
-
-  /@iuser/walk/0.0.2:
-    resolution: {integrity: sha512-fhxi4clPU6ZcbUjyc763yk405Nsf5jU1qXQwBN4AxCrzbS0paHLEr3UJUXOm85ycxHHw2ja1o/k+/Xpmz9N4hw==}
-    dev: true
-
-  /@iuser/walk/0.0.6:
-    resolution: {integrity: sha512-iBjwrOLxt/ytIL5VOX2Uot+s4q8sMzeymy+gp0lmySpOrvaglY057PJH+bkemIFTrPCrvqqHJ/GtlNyf2OtpOg==}
-    dev: true
-
-  /@iuser/write/0.0.7:
-    resolution: {integrity: sha512-OvkcTyygSHAxy27453FpnUXV3x/4Ey+mkl1vNEn5E4n37hhKcn3Cwr8jLqZYcF/oUU/aE+hQc3jPQ4UcgzQH1w==}
-    dev: true
 
   /@trysound/sax/0.2.0:
     resolution: {integrity: sha512-L7z9BgrNEcYyUYtF+HaEfiS5ebkh9jXqbszz7pC0hRBPaatV0XjSD3+eHrpqFemQfgwiFF0QPIarnIihIDn7OA==}
@@ -63,8 +31,36 @@ packages:
     resolution: {integrity: sha512-JWYU9TgVNp6Te8kP40LezAL6/kOVHsUtwaWj036hw1mLa5T80F8Ntrnnc8yG+2gEAq2VoY2lBLsj/7vMFJgXLw==}
     dev: true
 
-  /@u7/uridir/0.0.1:
-    resolution: {integrity: sha512-r0J5ZW0s48CGJdTCKRRWQ3zhcQ3tpCAqvu4zXQtqQiYKGM1A5NMyzLBFEZsDN/VwP9BbCI2dBRCntZQmGwePlA==}
+  /@u7/camel/0.0.28:
+    resolution: {integrity: sha512-1Sh7T5na9XpnNOs9ecKEsBRCQ+Sn+FVM0TEF12edxb/eOY460H+z2ciphkDUhBE9MwSXxt03LoyQMwYDGIzv4w==}
+    dev: true
+
+  /@u7/extract/0.0.2:
+    resolution: {integrity: sha512-BzeqSS80bjHq8PBh4kCfmz8gjAwFVITl0Z2N0qgYkKiisEgmluRFju2oZ3gu7sQS7iJ2iIqTHnMl3xzBR1aNvA==}
+    dev: true
+
+  /@u7/node-loader/0.0.49:
+    resolution: {integrity: sha512-DKQGd5M8QHm42P1gje0QLbqnF5lJkcCf+M0xOUNjiilHlCcz67KQbWEkSTTLqaXvt05EmlMjxNLFVqIkw2A7CQ==}
+    dependencies:
+      '@u6x/jsext': 0.0.27
+      coffee_plus: 0.0.55
+      coffeescript: 2.7.0
+    dev: true
+
+  /@u7/read/0.0.6:
+    resolution: {integrity: sha512-j4uIfSfkZDZ+6zupIbpB+6TwIkOb7OsC5gYAsVYpJu0AXCMoS34MpRWaW122hNIK1TqlpJcmufVHp12O2H8KHw==}
+    dev: true
+
+  /@u7/uridir/0.0.2:
+    resolution: {integrity: sha512-tyuFdhcxmCxE/iYpNknjc37TkffJLxVnvW6wCJyJ/CBBBeWjEe1FWtsORK4jyR+pI0E8UF0iP+9Hz3T3Y7pCtw==}
+    dev: true
+
+  /@u7/walk/0.0.8:
+    resolution: {integrity: sha512-4VUVWDvEDNOFQXzeP8uPQ+PStd62cqVM+U85nbyP7DgSTBe2rTN4HDdicEYXHgAMCbZ/mQ1VTcPJWUnFzx5F7Q==}
+    dev: true
+
+  /@u7/write/0.0.8:
+    resolution: {integrity: sha512-cas5IbKVQzbZieMFfo4lEJ3tn4wLme40hXHjkgt2EWuqpklbxFu5DI/eR20whM+XLOz3y+NxVuNXy5zXuRqdIw==}
     dev: true
 
   /ansi-regex/5.0.1:
@@ -96,24 +92,13 @@ packages:
       wrap-ansi: 7.0.0
     dev: true
 
-  /coffee_plus/0.0.43:
-    resolution: {integrity: sha512-E679KLtIffbhh8b7D/EVYbrPWhnyvScRsS7PrDRDfSFBl/6jr/vLGmklPlGe3s72h/wK/3BCqe7x1WiJbFaUaw==}
+  /coffee_plus/0.0.55:
+    resolution: {integrity: sha512-SenFgyHeF7FHZXC9YLRPNpv44VHQ0fDeGpYan6hhcUmQnD26f23ZLPDOHZGZnXmB1yovs78hFJ2NucLYjhO32A==}
     hasBin: true
     dependencies:
-      '@iuser/camel': 0.0.20
-      '@iuser/walk': 0.0.2
-      '@iuser/write': 0.0.7
-      lodash-es: 4.17.21
-      yargs: 17.7.0
-    dev: true
-
-  /coffee_plus/0.0.46:
-    resolution: {integrity: sha512-kINlViTWoCDsIveCsEMqa1akIXOU4UIlm0HY56yAPJBAp85nMiah3X+4mZnzjrOvzuzY9BmDE05QCOJU9hr3Gg==}
-    hasBin: true
-    dependencies:
-      '@iuser/camel': 0.0.20
-      '@iuser/walk': 0.0.6
-      '@iuser/write': 0.0.7
+      '@u7/camel': 0.0.28
+      '@u7/walk': 0.0.8
+      '@u7/write': 0.0.8
       fs-extra: 11.1.0
       lodash-es: 4.17.21
       yargs: 17.7.0

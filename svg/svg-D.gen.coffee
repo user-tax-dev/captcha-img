@@ -1,10 +1,10 @@
 #!/usr/bin/env coffee
 
 > @u7/uridir
-  @iuser/extract > extractLi
+  @u7/extract > extractLi
   fs/promises > opendir
-  @iuser/read
-  @iuser/write
+  @u7/read
+  @u7/write
   path > join dirname
 
 ROOT = uridir(import.meta)
